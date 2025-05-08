@@ -8,21 +8,25 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 docker run -dp 8000:3000 --name react-demo-app-container anumaan/react-demo-app-image
 
-### 2. List running containers:
+### 2. Run app in browser:
+
+Open [http://localhost:8000/](http://localhost:8000/) in browser to see running app.
+
+### 3. List running containers:
 
 docker ps
 
 Copy ID of running container.
 
-### 3. Stop container instance:
+### 4. Stop container instance:
 
 docker stop [container_id]
 
-### 4. Delete container locally:
+### 5. Delete container locally:
 
 docker container rm anumaan/react-demo-app-image
 
-### 5. Delete image locally:
+### 6. Delete image locally:
 
 docker image rm anumaan/react-demo-app-image
 
